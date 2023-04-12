@@ -2,10 +2,7 @@
     <div>
         <div>Hello React!!!</div>
         <client-only>
-            <React />
-        </client-only>
-        <client-only>
-            <ReactFromScratch />
+            <ReactFromScratch :label="message" />
         </client-only>
     </div>
 </template>
@@ -15,5 +12,8 @@ import Vue from "vue";
 
 export default Vue.extend({
     name: "IndexPage",
+    data: () => ({
+        message: "Hello Vue!",
+    }),
 });
 </script>

@@ -13,8 +13,6 @@ export default {
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
     script: [
-      // { src: "https://unpkg.com/react@18/umd/react.production.min.js" }, // react本体,
-      // { src: "https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" }, // react-dom本体
       { src: "./umd/index.umd.js" }, // react component
     ],
   },
@@ -23,7 +21,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [{ src: "~/plugins/vuera.ts", mode: "client" }],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

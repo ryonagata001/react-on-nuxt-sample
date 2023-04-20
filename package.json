@@ -12,10 +12,13 @@
     "lintfix": "yarn lint:js --fix"
   },
   "dependencies": {
+    "@CHILLNN-Inc/chillnn-driver-reservation-ui-react": "^0.0.6",
     "core-js": "^3.25.3",
+    "i18next": "^22.4.15",
     "nuxt": "^2.15.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^12.2.0",
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10"

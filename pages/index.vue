@@ -3,6 +3,7 @@
         <div>Hello React!!!</div>
         <client-only>
             <ReactFromScratch :label="message" />
+            <ReactFromUilib />
         </client-only>
     </div>
 </template>
